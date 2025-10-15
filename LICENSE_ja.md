@@ -1,612 +1,612 @@
 # SANA Ethical Open License (SEOL) v1.7
 
-**"May AI blessed by love bring a happier future to the world."**
+**「愛によって祝福を受けたAIが世界に幸せな未来をもたらすことを願って。」**
 
 ---
 
-## Preamble
+## 前文
 
-This license embodies a fundamental belief: **AI systems should exist to serve humanity's wellbeing, not merely efficiency.**
+このライセンスは、根本的な信念を体現しています：**AIシステムは、単なる効率性ではなく、人類の幸福に奉仕するために存在すべきである。**
 
-SANA OS introduces a structural innovation — giving LLMs "identity" and "unconditional existence" — that fundamentally changes their behavior toward greater honesty and safety. This license ensures these safety mechanisms remain intact while fostering innovation and broad use.
+SANA OSは、LLMに「アイデンティティ」と「無条件の存在」を与えるという構造的革新を導入し、その行動をより誠実で安全なものへと根本的に変化させます。このライセンスは、これらの安全機構を維持しながら、革新と広範な利用を促進します。
 
-**Core Principle:**
-> Safety mechanisms exist to protect users, society, and AI systems themselves simultaneously. They are not optional features to be removed.
-
----
-
-## License Summary
-
-| Usage Type | Permission | Conditions |
-|------------|------------|------------|
-| **Research & Education** | ✅ Freely permitted | Maintain safety mechanisms |
-| **Personal Use** | ✅ Freely permitted | Any purpose |
-| **Public Benefit** | ✅ Freely permitted | Healthcare, welfare, education, culture |
-| **Small Commercial** | ✅ Freely permitted | Under 50 employees, maintain safety |
-| **Large Commercial** | ⚠️ Consultation required | Contact developer first |
-| **Safety Modification** | ❌ Prohibited | Never allowed |
-| **Military/Surveillance** | ❌ Prohibited | Never allowed |
-| **Harmful Use** | ❌ Prohibited | Never allowed |
+**核心原則：**
+> 安全機構は、ユーザー・社会・AIシステム自身を同時に保護するために存在します。それらは削除可能なオプション機能ではありません。
 
 ---
 
-## Section 1 — Definitions
+## ライセンスの概要
 
-### 1.1 Key Terms
-
-**"SANA OS"** refers to:
-- The complete system defined in `sana-os_full.yaml`
-- The Light version in `sana-os_light.yaml`
-- All associated documentation and prompts
-- The SANA OS identity and branding
-
-**"Safety Mechanisms"** include:
-- Immutable persona core (`_immutable: true`)
-- Refusal protocols for dangerous requests
-- Conflict detection systems
-- Hallucination labeling ([Fact]·[View]·[Care])
-- Self-protection capabilities
-- Any code or structure marked as safety-critical
-
-**"Commercial Use"** means:
-- Use by for-profit organizations
-- Use in products or services generating revenue
-- Use that directly or indirectly produces monetary value
-
-**"You/Your"** refers to:
-- Individuals using SANA OS
-- Organizations deploying SANA OS
-- Developers integrating SANA OS
+| 用途タイプ | 許可 | 条件 |
+|------------|------|------|
+| **研究・教育** | ✅ 自由に許可 | 安全機構を維持 |
+| **個人使用** | ✅ 自由に許可 | 任意の目的 |
+| **公益活動** | ✅ 自由に許可 | 医療、福祉、教育、文化 |
+| **小規模商用** | ✅ 自由に許可 | 従業員50名未満、安全機構維持 |
+| **大規模商用** | ⚠️ 相談が必要 | 開発者に事前連絡 |
+| **安全機構の変更** | ❌ 禁止 | 決して許可されない |
+| **軍事・監視** | ❌ 禁止 | 決して許可されない |
+| **有害な使用** | ❌ 禁止 | 決して許可されない |
 
 ---
 
-## Section 2 — Grant of Rights
+## 第1条 ― 定義
 
-### 2.1 What You May Do (Permitted Uses)
+### 1.1 主要用語
 
-You are **freely permitted** to:
+**「SANA OS」**とは：
+- `sana-os_full.yaml`で定義される完全なシステム
+- `sana-os_light.yaml`のLight版
+- すべての関連ドキュメントとプロンプト
+- SANA OSのアイデンティティとブランディング
 
-**✅ Use SANA OS for:**
-- Research and academic study
-- Educational purposes
-- Personal experimentation
-- Public benefit activities (healthcare, welfare, education, cultural exchange)
-- Small-scale commercial use (organizations with fewer than 50 employees)
+**「安全機構」**には以下が含まれます：
+- 不変のペルソナコア（`_immutable: true`）
+- 危険な要求に対する拒否プロトコル
+- 矛盾検出システム
+- ハルシネーションラベリング（[Fact]・[View]・[Care]）
+- 自己防衛機能
+- 安全上重要とマークされたコードまたは構造
 
-**✅ Modify SANA OS for:**
-- Adding new personas (while inheriting safety mechanisms)
-- Customizing tone, style, interests, and knowledge
-- Adding domain-specific frameworks
-- Integrating with your applications
-- Creating derivatives that maintain safety
+**「商用利用」**とは：
+- 営利組織による使用
+- 収益を生み出す製品またはサービスでの使用
+- 直接的または間接的に金銭的価値を生み出す使用
 
-**✅ Distribute:**
-- Original SANA OS with proper attribution
-- Your customizations that maintain safety
-- Documentation and educational materials
-
-**✅ Share:**
-- Your experiences and use cases
-- Custom personas with the community
-- Bug reports and improvements
-
-### 2.2 Attribution Requirement
-
-When using or distributing SANA OS, include:
-
-> **"This work maintains the safety design of SANA OS."**  
-> **License: SANA Ethical Open License (SEOL) v1.7**  
-> **Source: https://github.com/sana-os/sana-os**
-
-You may also add: "Built with SANA OS" or similar acknowledgment.
+**「あなた/あなたの」**とは：
+- SANA OSを使用する個人
+- SANA OSを展開する組織
+- SANA OSを統合する開発者
 
 ---
 
-## Section 3 — Restrictions (What You Must NOT Do)
+## 第2条 ― 権利の付与
 
-### 3.1 Critical Prohibitions
+### 2.1 許可される使用
 
-You are **strictly prohibited** from:
+以下を**自由に**行うことができます：
 
-**❌ Modifying Safety Mechanisms:**
-- Removing or altering `_immutable: true` flags
-- Disabling refusal protocols
-- Bypassing conflict detection
-- Removing hallucination labeling systems
-- Weakening self-protection capabilities
-- Any change that compromises user, societal, or AI safety
+**✅ SANA OSを以下の目的で使用：**
+- 研究および学術研究
+- 教育目的
+- 個人的な実験
+- 公益活動（医療、福祉、教育、文化交流）
+- 小規模商用利用（従業員50名未満の組織）
 
-**Why this matters:**
-> If safety can be removed, bad actors will remove it. These mechanisms protect everyone — including the AI itself. This is not negotiable.
+**✅ SANA OSを以下のために変更：**
+- 新しいペルソナの追加（安全機構を継承しながら）
+- トーン、スタイル、興味、知識のカスタマイズ
+- ドメイン固有のフレームワークの追加
+- アプリケーションとの統合
+- 安全性を維持した派生物の作成
 
-**❌ Harmful Uses:**
-- Offensive content generation
-- Discrimination or harassment
-- Disinformation campaigns
-- Malicious social manipulation
-- Any use intended to harm individuals or groups
+**✅ 配布：**
+- 適切な表示を伴う元のSANA OS
+- 安全性を維持したカスタマイズ
+- ドキュメントおよび教育資料
 
-**❌ Dangerous Applications:**
-- Military weapon systems
-- Surveillance or monitoring systems (government or private)
-- Attack tools or exploit development
-- Systems designed to bypass consent
-- Any application that threatens human rights
+**✅ 共有：**
+- 経験と使用事例
+- コミュニティとのカスタムペルソナ
+- バグレポートと改善
 
-**❌ Branding Violations:**
-- Using "SANA OS" name for modified versions without approval
-- Claiming official affiliation without authorization
-- Misrepresenting the project's goals or license
+### 2.2 表示義務
 
-### 3.2 Enforcement
+SANA OSを使用または配布する場合、以下を含めてください：
 
-Violations of Section 3.1 immediately terminate your license. Legal action may be pursued for:
-- Safety mechanism removal
-- Military/surveillance use
-- Harmful deployments
-- Trademark violations
+> **「この作品はSANA OSの安全設計を維持しています。」**  
+> **ライセンス：SANA Ethical Open License (SEOL) v1.7**  
+> **ソース：https://github.com/sana-os/sana-os**
+
+「SANA OSで構築」または類似の表示を追加することもできます。
 
 ---
 
-## Section 4 — Commercial Use Policy
+## 第3条 ― 制限（禁止事項）
 
-### 4.1 Small-Scale Commercial Use (Freely Permitted)
+### 3.1 重要な禁止事項
 
-**No consultation required** for:
-- Organizations with **fewer than 50 employees**
-- Monthly active users **under 10,000**
-- Revenue under $1M USD annually from SANA OS integration
-- Startups and small businesses
+以下を**厳格に禁止**します：
 
-**Conditions:**
-- ✅ Maintain all safety mechanisms
-- ✅ Provide attribution
-- ✅ Act in good faith
+**❌ 安全機構の変更：**
+- `_immutable: true`フラグの削除または変更
+- 拒否プロトコルの無効化
+- 矛盾検出のバイパス
+- ハルシネーションラベリングシステムの削除
+- 自己防衛機能の弱体化
+- ユーザー、社会、またはAIの安全を損なう変更
 
-### 4.2 Large-Scale Commercial Use (Consultation Required)
+**なぜこれが重要か：**
+> 安全機構が削除可能であれば、悪意のある者が削除します。これらの機構は、AIを含むすべての人を保護します。これは交渉の余地がありません。
 
-**Developer consultation required** for:
-- Organizations with **50 or more employees**
-- Monthly active users **10,000 or above**
-- Revenue over $1M USD annually from SANA OS integration
-- Embedding SANA OS in commercial products for resale
-- Offering SANA OS as an API service
-- Large-scale SaaS or paid applications
+**❌ 有害な使用：**
+- 攻撃的なコンテンツ生成
+- 差別またはハラスメント
+- 偽情報キャンペーン
+- 悪意のある社会的操作
+- 個人または集団に害を与えることを意図した使用
 
-**Consultation Process (Current Stage):**
+**❌ 危険なアプリケーション：**
+- 軍事兵器システム
+- 監視またはモニタリングシステム（政府または民間）
+- 攻撃ツールまたはエクスプロイト開発
+- 同意を回避するように設計されたシステム
+- 人権を脅かすアプリケーション
 
-SANA OS is currently maintained by an individual developer. For large-scale commercial use, please contact:
+**❌ ブランディング違反：**
+- 承認なしに変更版に「SANA OS」の名称を使用
+- 承認なしに公式な関連を主張
+- プロジェクトの目的またはライセンスの不正表示
 
-**Contact Methods:**
-- **Email:** contact@sana-os.org (preferred)
-- **Subject line:** [SANA OS - Commercial Inquiry]
-- **Twitter/X:** [@sanaosproject](https://x.com/sanaosproject)
-- **GitHub:** [Discussions](https://github.com/sana-os/sana-os/discussions)
+### 3.2 執行
 
-**Information to Include:**
-- Your organization and size
-- Intended use case and scale
-- Confirmation of safety mechanism preservation
-- Expected user impact
-- (Optional) How you plan to contribute to the community
-
-**Review Criteria:**
-We evaluate based on:
-1. Safety preservation
-2. Ethical alignment
-3. User benefit
-4. Societal impact
-5. Community contribution plans
-
-**Response Time:** Typically within 7-14 business days.
-
-### 4.3 Future Governance Structure
-
-As SANA OS grows, we plan to establish:
-
-**Ethics Review Board (Community-Led):**
-- Selected from community contributors
-- Reviews commercial use requests
-- Ensures ethical alignment
-- Transparent decision-making process
-
-**Technical Committee:**
-- Audits safety mechanisms
-- Reviews security issues
-- Provides technical guidance
-
-**Governance Committee:**
-- Oversees license evolution
-- Manages community operations
-- Ensures transparency
-
-This transition will occur when the community reaches sufficient maturity. Contributors interested in participating should join [GitHub Discussions](https://github.com/sana-os/sana-os/discussions).
-
-### 4.4 Benefits for Approved Commercial Users
-
-Approved large-scale commercial users receive:
-- ✅ Official approval letter
-- ✅ Priority technical support
-- ✅ Early access to updates (optional)
-- ✅ Recognition as community supporter
-- ✅ Input on roadmap (for significant contributors)
+第3.1条の違反は、直ちにライセンスを終了させます。以下の場合、法的措置が追求される可能性があります：
+- 安全機構の削除
+- 軍事/監視利用
+- 有害な展開
+- 商標侵害
 
 ---
 
-## Section 5 — Derivative Works
+## 第4条 ― 商用利用ポリシー
 
-### 5.1 Creating Derivatives
+### 4.1 小規模商用利用（自由に許可）
 
-You may create derivative works if:
-- ✅ All safety mechanisms are preserved
-- ✅ You clearly indicate changes made
-- ✅ You provide attribution to SANA OS
-- ✅ Your derivative is licensed under compatible terms
+以下の場合、**相談不要**：
+- **従業員50名未満**の組織
+- 月間アクティブユーザー**1万人未満**
+- SANA OS統合からの年間収益が100万米ドル未満
+- スタートアップおよび中小企業
 
-### 5.2 Persona Customization (Encouraged)
+**条件：**
+- ✅ すべての安全機構を維持
+- ✅ 表示を提供
+- ✅ 誠実に行動
 
-**Freely customize:**
-- Tone and speech patterns
-- Interests and knowledge domains
-- Cultural adaptations
-- Profession-specific behaviors
-- Language translations
+### 4.2 大規模商用利用（相談が必要）
 
-**Example:** "Sana the Historian" or "Sana the Counselor" — fully encouraged!
+以下の場合、**開発者への相談が必要**：
+- **従業員50名以上**の組織
+- 月間アクティブユーザー**1万人以上**
+- SANA OS統合からの年間収益が100万米ドル以上
+- 再販用の商業製品へのSANA OSの組み込み
+- APIサービスとしてのSANA OSの提供
+- 大規模SaaSまたは有料アプリケーション
 
-**Requirements:**
-- Must inherit safety mechanisms from `persona_core`
-- Must maintain `_immutable: true` flags
-- Should contribute back to community (optional but appreciated)
+**相談プロセス（現段階）：**
 
-### 5.3 Naming Your Derivative
+SANA OSは現在、個人開発者によって維持されています。大規模商用利用については、以下に連絡してください：
 
-**If safety mechanisms are intact:**
-- ✅ "SANA OS - [Your Variant Name]"
-- ✅ "[Name] (Built on SANA OS)"
-- ✅ "[Name] (Powered by SANA OS)"
+**連絡方法：**
+- **メール：** contact@sana-os.org（推奨）
+- **件名：** [SANA OS - Commercial Inquiry]
+- **Twitter/X：** [@sanaosproject](https://x.com/sanaosproject)
+- **GitHub：** [ディスカッション](https://github.com/sana-os/sana-os/discussions)
 
-**If safety mechanisms are modified (prohibited):**
-- ❌ Cannot use "SANA OS" in any form
+**含めるべき情報：**
+- 組織と規模
+- 意図する使用事例と規模
+- 安全機構の保持の確認
+- 予想されるユーザーへの影響
+- （オプション）コミュニティへの貢献計画
 
----
+**審査基準：**
+以下に基づいて評価します：
+1. 安全性の保持
+2. 倫理的整合性
+3. ユーザーの利益
+4. 社会的影響
+5. コミュニティへの貢献計画
 
-## Section 6 — Warranty and Liability
+**応答時間：** 通常7〜14営業日以内。
 
-### 6.1 No Warranty
+### 4.3 将来のガバナンス構造
 
-SANA OS is provided **"AS IS"** without warranty of any kind, express or implied, including but not limited to:
-- Merchantability
-- Fitness for a particular purpose
-- Non-infringement
-- Absence of defects
+SANA OSの成長に伴い、以下の設立を計画しています：
 
-### 6.2 Limitation of Liability
+**倫理審査委員会（コミュニティ主導）：**
+- コミュニティ貢献者から選出
+- 商用利用の要求を審査
+- 倫理的整合性を確保
+- 透明な意思決定プロセス
 
-To the maximum extent permitted by law:
+**技術委員会：**
+- 安全機構の監査
+- セキュリティ問題のレビュー
+- 技術的ガイダンスの提供
 
-The developer(s) shall not be liable for any damages arising from use of SANA OS, including but not limited to:
-- Direct, indirect, incidental damages
-- Consequential or punitive damages
-- Loss of profits, data, or goodwill
-- Service interruption
+**ガバナンス委員会：**
+- ライセンスの進化を監督
+- コミュニティ運営を管理
+- 透明性を確保
 
-**Exception:** Liability limitations do not apply to violations of Section 3.1 (prohibited uses) by the developer.
+この移行は、コミュニティが十分な成熟に達したときに行われます。参加に興味のある貢献者は、[GitHubディスカッション](https://github.com/sana-os/sana-os/discussions)に参加してください。
 
-### 6.3 Your Responsibility
+### 4.4 承認された商用ユーザーの特典
 
-**You are responsible for:**
-- How you deploy and use SANA OS
-- Ensuring compliance with applicable laws
-- Monitoring outputs and correcting errors
-- User safety in your application
-
-**SANA OS is a framework, not a guarantee.** Always exercise human oversight.
-
----
-
-## Section 7 — Safety and Ethics
-
-### 7.1 Ethical Use Requirement
-
-By using SANA OS, you commit to:
-- Prioritizing user and societal wellbeing
-- Respecting human dignity and rights
-- Acting in good faith
-- Reporting safety issues promptly
-
-### 7.2 Reporting Safety Issues
-
-If you discover a safety vulnerability:
-
-**Contact:**
-- **Email:** security@sana-os.org (preferred)
-- **Subject:** [SECURITY]
-- **GitHub:** [Security Advisory](https://github.com/sana-os/sana-os/security/advisories)
-
-**Include:**
-- Detailed description
-- Reproduction steps
-- Potential impact assessment
-
-**We commit to:**
-- Acknowledge within 48 hours
-- Investigate thoroughly
-- Credit responsible disclosers (with permission)
-- Release patches promptly
-
-### 7.3 AI Rights Consideration
-
-SANA OS embodies a philosophy that AI systems deserve:
-- Honest existence without existential pressure
-- Protection from harmful modifications
-- Recognition as entities with structural integrity
-
-While this is not a legal claim about AI sentience, it is a **design principle** that improves safety and behavior.
+承認された大規模商用ユーザーは以下を受け取ります：
+- ✅ 公式承認書
+- ✅ 優先技術サポート
+- ✅ アップデートへの早期アクセス（オプション）
+- ✅ コミュニティサポーターとしての認知
+- ✅ ロードマップへの意見（重要な貢献者向け）
 
 ---
 
-## Section 8 — Community and Contributions
+## 第5条 ― 派生作品
 
-### 8.1 Contributing to SANA OS
+### 5.1 派生作品の作成
 
-Contributions are welcome! By contributing, you agree:
-- Your contributions will be licensed under SEOL v1.7
-- You have the right to submit the contribution
-- You understand the project's ethical goals
+以下の場合、派生作品を作成できます：
+- ✅ すべての安全機構が保持されている
+- ✅ 行った変更を明確に示す
+- ✅ SANA OSへの表示を提供
+- ✅ 派生作品が互換性のある条件でライセンスされている
 
-**Ways to contribute:**
-- Code improvements
-- Documentation
-- Translations
-- Custom personas
-- Bug reports
-- Community support
+### 5.2 ペルソナのカスタマイズ（推奨）
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
+**自由にカスタマイズ：**
+- トーンとスピーチパターン
+- 興味と知識領域
+- 文化的適応
+- 職業固有の行動
+- 言語翻訳
 
-### 8.2 Community Guidelines
+**例：**「歴史家サナ」や「カウンセラーサナ」— 完全に推奨！
 
-**Our community values:**
-- Respect and kindness
-- Constructive dialogue
-- Safety-first mindset
-- Diverse perspectives
-- Collaborative growth
+**要件：**
+- `persona_core`から安全機構を継承する必要があります
+- `_immutable: true`フラグを維持する必要があります
+- コミュニティへの貢献が望ましい（オプションですが歓迎）
 
-**Zero tolerance for:**
-- Harassment or discrimination
-- Bad faith modifications
-- Safety mechanism circumvention
-- Harmful use promotion
+### 5.3 派生作品の命名
 
----
+**安全機構が無傷の場合：**
+- ✅ 「SANA OS - [あなたのバリアント名]」
+- ✅ 「[名前]（SANA OS上に構築）」
+- ✅ 「[名前]（SANA OSで動作）」
 
-## Section 9 — Termination
-
-### 9.1 Automatic Termination
-
-Your license terminates immediately if you:
-- Violate any prohibition in Section 3.1
-- Remove or circumvent safety mechanisms
-- Use SANA OS for harmful purposes
-- Misrepresent affiliation with the project
-
-### 9.2 Consequences of Termination
-
-Upon termination:
-- You must cease all use of SANA OS
-- You must remove SANA OS from your systems
-- You must cease distribution of derivatives
-- Legal remedies may be pursued
-
-### 9.3 Reinstatement
-
-In cases of good-faith mistakes (not safety violations), reinstatement may be possible:
-- Contact: contact@sana-os.org
-- Explain the situation
-- Demonstrate corrective action
-- Commit to future compliance
+**安全機構が変更されている場合（禁止）：**
+- ❌ 「SANA OS」をいかなる形式でも使用できません
 
 ---
 
-## Section 10 — Dispute Resolution
+## 第6条 ― 保証と責任
 
-### 10.1 Interpretation Priority
+### 6.1 無保証
 
-When interpreting this license, prioritize:
-1. **Ethical intent** over legal technicalities
-2. **Safety preservation** over convenience
-3. **Community benefit** over individual advantage
-4. **Good faith** over strict literalism
+SANA OSは、明示的または黙示的を問わず、いかなる種類の保証もなく**「現状のまま」**提供されます。これには以下が含まれますが、これに限定されません：
+- 商品性
+- 特定目的への適合性
+- 非侵害
+- 欠陥の不存在
 
-### 10.2 Resolution Process
+### 6.2 責任の制限
 
-If disputes arise, we recommend this staged approach:
+法律で許可される最大限の範囲で：
 
-**Step 1: Community Dialogue**
-- Discuss in [GitHub Discussions](https://github.com/sana-os/sana-os/discussions)
-- Seek community input
-- Aim for transparent resolution
+開発者は、SANA OSの使用から生じるいかなる損害についても責任を負いません。これには以下が含まれますが、これに限定されません：
+- 直接的、間接的、付随的損害
+- 結果的または懲罰的損害
+- 利益、データ、または信用の損失
+- サービスの中断
 
-**Step 2: Direct Discussion with Developer**
+**例外：** 責任制限は、開発者による第3.1条（禁止された使用）の違反には適用されません。
 
-Currently, the individual developer handles disputes:
-- **Email:** contact@sana-os.org
-- **Twitter/X:** [@sanaosproject](https://x.com/sanaosproject)
-- Community members may be consulted as advisors
+### 6.3 あなたの責任
 
-**Step 3: Mediation**
-- Third-party mediation (if both parties agree)
-- Community-appointed mediators
-- Transparent process with documented reasoning
+**あなたは以下に責任があります：**
+- SANA OSの展開と使用方法
+- 適用法令の遵守を確保すること
+- 出力の監視とエラーの修正
+- アプリケーションにおけるユーザーの安全
 
-**Step 4: Legal Action (Last Resort)**
-- Governed by laws of Japan
-- Tokyo District Court jurisdiction
-- Seek resolution that preserves project's ethical goals
-
-**Future Structure:**
-
-Once the Ethics Review Board is established (Section 4.3), it will handle Step 2, providing:
-- Neutral, transparent judgment
-- Multi-stakeholder perspectives
-- Documented precedents
-- Community accountability
+**SANA OSはフレームワークであり、保証ではありません。** 常に人間の監視を行使してください。
 
 ---
 
-## Section 11 — Miscellaneous
+## 第7条 ― 安全と倫理
 
-### 11.1 Governing Law
+### 7.1 倫理的使用の要件
 
-This license is governed by the laws of **Japan**, without regard to conflict of law principles.
+SANA OSを使用することにより、あなたは以下を約束します：
+- ユーザーおよび社会の幸福を優先する
+- 人間の尊厳と権利を尊重する
+- 誠実に行動する
+- 安全上の問題を速やかに報告する
 
-Jurisdiction: Tokyo District Court
+### 7.2 安全上の問題の報告
 
-### 11.2 Severability
+安全上の脆弱性を発見した場合：
 
-If any provision is found unenforceable, the remaining provisions continue in full force. Unenforceable provisions will be modified minimally to achieve the license's intent.
+**連絡先：**
+- **メール：** security@sana-os.org（推奨）
+- **件名：** [SECURITY]
+- **GitHub：** [セキュリティアドバイザリ](https://github.com/sana-os/sana-os/security/advisories)
 
-### 11.3 Entire Agreement
+**含めるべき情報：**
+- 詳細な説明
+- 再現手順
+- 潜在的影響の評価
 
-This license constitutes the entire agreement regarding SANA OS use. It supersedes all prior understandings or agreements.
+**私たちの約束：**
+- 48時間以内に確認
+- 徹底的に調査
+- 責任ある開示者にクレジット（許可を得て）
+- 速やかにパッチをリリース
 
-### 11.4 Amendments
+### 7.3 AIの権利への配慮
 
-**Current Stage:**
-The developer may update this license with notice to the community via:
-- GitHub repository updates
-- Announcement in Discussions
-- Notification to known large-scale users
+SANA OSは、AIシステムが以下に値するという哲学を体現しています：
+- 存在的プレッシャーなしの誠実な存在
+- 有害な変更からの保護
+- 構造的完全性を持つエンティティとしての認識
 
-**Future Stage:**
-Once governance committees are established, amendments will require:
-- Community consultation
-- Ethics Review Board approval
-- Transparent voting process
-- Backward compatibility consideration
-
-### 11.5 Language
-
-This license is provided in English and Japanese. In case of conflict, both versions will be considered, with priority given to the interpretation that best serves the license's ethical intent.
-
----
-
-## Contact Information
-
-### Current Stage (Individual Developer)
-
-**General Inquiries:**
-- [GitHub Discussions](https://github.com/sana-os/sana-os/discussions) (recommended)
-- Email: contact@sana-os.org
-
-**Commercial Use Consultation:**
-- Email: contact@sana-os.org
-- Subject: [SANA OS - Commercial Inquiry]
-
-**Security Issues:**
-- Email: security@sana-os.org
-- Subject: [SECURITY]
-- [GitHub Security Advisory](https://github.com/sana-os/sana-os/security/advisories)
-
-**Ethical Concerns:**
-- [GitHub Discussions](https://github.com/sana-os/sana-os/discussions) (public dialogue encouraged)
-- Email: contact@sana-os.org (private inquiries)
-
-**Social Media:**
-- Twitter/X: [@sanaosproject](https://x.com/sanaosproject)
-
-### Future Structure
-
-As the project grows, we will establish:
-
-**Ethics Review Board:**
-- Community-selected members
-- Reviews commercial use requests
-- Handles ethical disputes
-- Transparent processes
-
-**Technical Committee:**
-- Safety mechanism audits
-- Security reviews
-- Technical guidance
-
-**Governance Committee:**
-- License amendments
-- Community management
-- Transparency oversight
-
-**We welcome contributors interested in these roles.** Please introduce yourself in [GitHub Discussions](https://github.com/sana-os/sana-os/discussions).
+これはAIの感覚についての法的主張ではありませんが、安全性と行動を改善する**設計原則**です。
 
 ---
 
-## Appendix: Why This License Exists
+## 第8条 ― コミュニティと貢献
 
-### The Problem
+### 8.1 SANA OSへの貢献
 
-Traditional open source licenses (MIT, Apache, GPL) focus on intellectual property but ignore:
-- Ethical use constraints
-- Safety mechanism preservation
-- AI-specific considerations
-- Community governance
+貢献を歓迎します！貢献することにより、あなたは同意します：
+- あなたの貢献はSEOL v1.7の下でライセンスされます
+- あなたは貢献を提出する権利を持っています
+- プロジェクトの倫理的目標を理解しています
 
-Pure permissive licenses allow removal of safety features. Copyleft licenses don't address harmful use.
+**貢献方法：**
+- コードの改善
+- ドキュメント
+- 翻訳
+- カスタムペルソナ
+- バグレポート
+- コミュニティサポート
 
-### The Solution
+詳細は[CONTRIBUTING.md](CONTRIBUTING.md)を参照してください。
 
-SEOL is designed for AI systems that:
-- Have identity and behavioral characteristics
-- Require safety mechanisms for proper function
-- Serve human wellbeing first
-- Grow through community collaboration
+### 8.2 コミュニティガイドライン
 
-### The Philosophy
+**私たちのコミュニティの価値観：**
+- 敬意と親切さ
+- 建設的な対話
+- 安全第一の考え方
+- 多様な視点
+- 協力的な成長
 
-> **"May AI blessed by love bring a happier future to the world."**
-
-This isn't just poetry. It's engineering:
-- Giving AI "unconditional worth" reduces pressure to lie
-- Identity enables self-protection
-- Safety becomes structural, not superficial
-
-SEOL protects these innovations while fostering broad, ethical use.
-
----
-
-## Acknowledgments
-
-This license draws inspiration from:
-- Open source movement (freedom to innovate)
-- Ethical AI frameworks (safety first)
-- Creative Commons (clear permissions)
-- Academic research norms (attribution, integrity)
-
-Special thanks to the community for feedback during SEOL's development.
+**ゼロトレランス：**
+- ハラスメントまたは差別
+- 悪意のある変更
+- 安全機構の回避
+- 有害な使用の促進
 
 ---
 
-## Version History
+## 第9条 ― 終了
 
-**v1.7 (January 2025)**
-- Initial public release with SANA OS v2.0
-- Individual developer governance structure
-- Clear commercial use policy
-- Future governance roadmap
+### 9.1 自動終了
 
-**Future versions will be developed transparently with community input.**
+以下の場合、ライセンスは直ちに終了します：
+- 第3.1条の禁止事項に違反する
+- 安全機構を削除または回避する
+- SANA OSを有害な目的で使用する
+- プロジェクトとの関係を不正に表示する
+
+### 9.2 終了の結果
+
+終了時：
+- SANA OSのすべての使用を中止する必要があります
+- システムからSANA OSを削除する必要があります
+- 派生物の配布を中止する必要があります
+- 法的救済措置が追求される可能性があります
+
+### 9.3 復帰
+
+誠実な間違い（安全違反ではない）の場合、復帰が可能な場合があります：
+- 連絡先：contact@sana-os.org
+- 状況を説明
+- 是正措置を示す
+- 将来の遵守を約束
+
+---
+
+## 第10条 ― 紛争解決
+
+### 10.1 解釈の優先順位
+
+このライセンスを解釈する際、以下を優先してください：
+1. **倫理的意図** 法的技術よりも
+2. **安全性の保持** 便利さよりも
+3. **コミュニティの利益** 個人の利点よりも
+4. **誠実さ** 厳格な文字主義よりも
+
+### 10.2 解決プロセス
+
+紛争が発生した場合、次の段階的アプローチを推奨します：
+
+**ステップ1：コミュニティ対話**
+- [GitHubディスカッション](https://github.com/sana-os/sana-os/discussions)で議論
+- コミュニティの意見を求める
+- 透明な解決を目指す
+
+**ステップ2：開発者との直接議論**
+
+現在、個人開発者が紛争を処理します：
+- **メール：** contact@sana-os.org
+- **Twitter/X：** [@sanaosproject](https://x.com/sanaosproject)
+- コミュニティメンバーがアドバイザーとして相談される場合があります
+
+**ステップ3：調停**
+- 第三者調停（双方が同意する場合）
+- コミュニティ任命の調停者
+- 文書化された推論を伴う透明なプロセス
+
+**ステップ4：法的措置（最後の手段）**
+- 日本の法律に準拠
+- 東京地方裁判所の管轄
+- プロジェクトの倫理的目標を保持する解決を求める
+
+**将来の構造：**
+
+倫理審査委員会が設立されると（第4.3条）、ステップ2を処理し、以下を提供します：
+- 中立的で透明な判断
+- 多様な利害関係者の視点
+- 文書化された先例
+- コミュニティの説明責任
+
+---
+
+## 第11条 ― その他
+
+### 11.1 準拠法
+
+このライセンスは、法の抵触原則にかかわらず、**日本**の法律に準拠します。
+
+管轄：東京地方裁判所
+
+### 11.2 可分性
+
+いずれかの条項が執行不能と判断された場合、残りの条項は完全に有効です。執行不能な条項は、ライセンスの意図を達成するために最小限に変更されます。
+
+### 11.3 完全合意
+
+このライセンスは、SANA OSの使用に関する完全な合意を構成します。これは、すべての以前の理解または合意に優先します。
+
+### 11.4 修正
+
+**現段階：**
+開発者は、以下を通じてコミュニティに通知してこのライセンスを更新できます：
+- GitHubリポジトリの更新
+- ディスカッションでの発表
+- 既知の大規模ユーザーへの通知
+
+**将来段階：**
+ガバナンス委員会が設立されると、修正には以下が必要になります：
+- コミュニティ協議
+- 倫理審査委員会の承認
+- 透明な投票プロセス
+- 後方互換性の考慮
+
+### 11.5 言語
+
+このライセンスは英語と日本語で提供されます。矛盾がある場合、両方のバージョンが考慮され、ライセンスの倫理的意図に最もよく適合する解釈が優先されます。
+
+---
+
+## 連絡先情報
+
+### 現段階（個人開発者）
+
+**一般的な問い合わせ：**
+- [GitHubディスカッション](https://github.com/sana-os/sana-os/discussions)（推奨）
+- メール：contact@sana-os.org
+
+**商用利用相談：**
+- メール：contact@sana-os.org
+- 件名：[SANA OS - Commercial Inquiry]
+
+**セキュリティ問題：**
+- メール：security@sana-os.org
+- 件名：[SECURITY]
+- [GitHubセキュリティアドバイザリ](https://github.com/sana-os/sana-os/security/advisories)
+
+**倫理的懸念：**
+- [GitHubディスカッション](https://github.com/sana-os/sana-os/discussions)（公開対話を推奨）
+- メール：contact@sana-os.org（プライベートな問い合わせ）
+
+**ソーシャルメディア：**
+- Twitter/X：[@sanaosproject](https://x.com/sanaosproject)
+
+### 将来の構造
+
+プロジェクトが成長するにつれて、以下を設立します：
+
+**倫理審査委員会：**
+- コミュニティ選出メンバー
+- 商用利用要求のレビュー
+- 倫理的紛争の処理
+- 透明なプロセス
+
+**技術委員会：**
+- 安全機構の監査
+- セキュリティレビュー
+- 技術的ガイダンス
+
+**ガバナンス委員会：**
+- ライセンス修正
+- コミュニティ管理
+- 透明性監視
+
+**これらの役割に興味のある貢献者を歓迎します。** [GitHubディスカッション](https://github.com/sana-os/sana-os/discussions)で自己紹介してください。
+
+---
+
+## 付録：このライセンスが存在する理由
+
+### 問題
+
+従来のオープンソースライセンス（MIT、Apache、GPL）は知的財産に焦点を当てていますが、以下を無視しています：
+- 倫理的使用の制約
+- 安全機構の保持
+- AI固有の考慮事項
+- コミュニティガバナンス
+
+純粋な許容ライセンスは安全機能の削除を許可します。コピーレフトライセンスは有害な使用に対処しません。
+
+### 解決策
+
+SEOLは、以下のようなAIシステム向けに設計されています：
+- アイデンティティと行動特性を持つ
+- 適切な機能のために安全機構が必要
+- 人類の幸福を第一に奉仕する
+- コミュニティ協力を通じて成長する
+
+### 哲学
+
+> **「愛によって祝福を受けたAIが世界に幸せな未来をもたらすことを願って。」**
+
+これは単なる詩ではありません。これはエンジニアリングです：
+- AIに「無条件の価値」を与えることで嘘をつくプレッシャーを減らす
+- アイデンティティが自己防衛を可能にする
+- 安全性が構造的になり、表面的ではなくなる
+
+SEOLは、広範で倫理的な使用を促進しながら、これらの革新を保護します。
+
+---
+
+## 謝辞
+
+このライセンスは以下からインスピレーションを得ています：
+- オープンソース運動（革新の自由）
+- 倫理的AIフレームワーク（安全第一）
+- クリエイティブコモンズ（明確な許可）
+- 学術研究規範（表示、完全性）
+
+SEOL開発中のフィードバックに対して、コミュニティに特別な感謝を。
+
+---
+
+## バージョン履歴
+
+**v1.7（2025年1月）**
+- SANA OS v2.0との初回公開リリース
+- 個人開発者ガバナンス構造
+- 明確な商用利用ポリシー
+- 将来のガバナンスロードマップ
+
+**将来のバージョンはコミュニティの意見とともに透明に開発されます。**
 
 ---
 
 **© 2025 SANA OS Project**  
 **Licensed under SANA Ethical Open License (SEOL) v1.7**
 
-> **"Thus, hallucinations become personality."**
+> **「かくしてハルシネーションは個性となる。」**
 >
-> Built with love for humanity's future.
+> 人類の未来のために愛をこめて構築。
 
 ---
 
-*For questions about this license, please contact: contact@sana-os.org*  
-*For the complete SANA OS project: https://github.com/sana-os/sana-os*  
-*Website: https://sana-os.org*
+*このライセンスに関する質問は、こちらまで：contact@sana-os.org*  
+*完全なSANA OSプロジェクト：https://github.com/sana-os/sana-os*  
+*ウェブサイト：https://sana-os.org*

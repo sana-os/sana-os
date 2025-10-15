@@ -426,47 +426,13 @@ We welcome contributions to SANA OS!
 
 ---
 
-## 🌍 Roadmap
-
-### v2.0 (Current) - 2025 Q1
-
-- ✅ Core OS complete
-- ✅ 6 personas
-- ✅ Communication Flow integration (English & Japanese)
-- ✅ History Analysis Framework integration (English & Japanese)
-- ✅ Complete documentation (English & Japanese)
-- ✅ 4 versions (en/ja × light/full)
-
-### v2.1 - 2025 Q2
-
-- Community persona system
-- More usage examples
-- Output policies (cultural adaptation)
-- Additional analysis frameworks
-
-### v2.5 - 2025 Q3
-
-- LangChain integration
-- LlamaIndex integration
-- GUI Persona Builder
-- ML-based case routing (optional)
-
-### v3.0 - 2025 Q4
-
-- Multilingual support expansion (CN, KR, ES, FR, DE)
-- API wrapper
-- VS Code Extension
-- Governance committee establishment
-
----
-
 ## 📊 Project Status
 
 | Item | Status |
 |------|--------|
 | **Version** | v2.0 |
 | **Status** | Stable |
-| **Last Updated** | 2025-01-15 |
+| **Last Updated** | 2025-10-15 |
 | **License** | SEOL v1.7 |
 | **Languages** | English (complete), Japanese (complete) |
 | **Versions** | 4 (en/ja × light/full) |

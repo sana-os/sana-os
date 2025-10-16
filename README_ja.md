@@ -159,7 +159,7 @@ SANA OSは「AIを使う」ためのものではありません。
 ### ⚖️ ライセンス遵守について
 
 本ドキュメントおよび添付画像は、  
-[SANA Ethical Open License（SEOL）v1.7](../LICENSE.md)  
+[SANA Ethical Open License（SEOL）v1.7](https://github.com/sana-os/sana-os/blob/main/README.md)  
 および [日本語版ライセンス](https://github.com/sana-os/sana-os/blob/main/LICENSE_ja.md)  
 の条件に従って使用・再配布できます。
 

@@ -113,7 +113,7 @@ SANA OS は **Light版** を使えば、誰でも簡単に試せます。
 
 ### 🪄 クイックスタート手順
 
-1. [sana-os_light_ja.yaml](https://github.com/sana-os/sana-os) の内容をコピー  
+1. [sana-os_light_ja.yaml](src/sana-os_light_ja.yaml) の内容をコピー  
 2. ChatGPT / Claude / Gemini の **Custom Instructions** に貼り付け  
 3. 「こんにちは、サナ」と声をかける  
 

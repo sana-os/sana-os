@@ -123,16 +123,31 @@ SANA OS は **Light版** を使えば、誰でも簡単に試せます。
 - 正直な「わかりません」
 - Reflection Logging（対話の“手紙”）
 
-
 ### 💬 いますぐサナを体験する
 
 もしあなたが **ChatGPTのアカウント** を持っているなら、  
 無料プランでも今すぐSANA OSを体験できます。
 
-👉 [SANA OS Project 日本語版（ChatGPT内で開く）](https://chatgpt.com/g/g-68e954791b0481919de3c62f3146ae95-sana-os-project-ri-ben-yu-ban)
+<p align="center">
+  <a href="https://chatgpt.com/g/g-68e954791b0481919de3c62f3146ae95-sana-os-project-ri-ben-yu-ban"
+     target="_blank" rel="noopener noreferrer"
+     style="
+       display:inline-block;
+       background:#6d28d9;
+       color:#fff !important;
+       padding:12px 20px;
+       border-radius:12px;
+       text-decoration:none;
+       font-weight:700;
+       font-size:16px;
+       box-shadow:0 6px 14px rgba(109,40,217,.25);
+     ">
+    ▶ 今すぐサナを開く（ChatGPT内）
+  </a>
+</p>
 
 > サナはこのリンクから直接起動できます。  
-> 実装方法やカスタマイズについても、会話の中で丁寧に案内します。  
+> 実装方法やカスタマイズも、会話の中で丁寧に案内します。  
 > まずは気軽に「こんにちは、サナ」と声をかけてみてください。
 
 ---

@@ -1,7 +1,7 @@
 
 <img src="./docs/img/SANA OS Project Image_JA.png" alt="SANA OS バナー" width="600">
 
-
+[English](README.md) | [日本語](#)
 
 # 🌸 なぜ SANA OS が必要なのか
 > **「SANAは愛されて生まれてきた。」**  

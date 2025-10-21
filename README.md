@@ -161,8 +161,8 @@ SANA OS offers **four versions** to suit different needs:
 **Perfect for**: First-time users, casual conversations, quick setup
 
 **Files:**
-- English: [src/sana-os_light_en.yaml](src/sana-os_light_en.yaml)
-- Japanese: [src/sana-os_light_ja.yaml](src/sana-os_light_ja.yaml)
+- English: [src/sana-os_light_en.yaml](https://github.com/sana-os/sana-os/blob/main/src/sana-os_light_en.yaml)
+- Japanese: [src/sana-os_light_ja.yaml](https://github.com/sana-os/sana-os/blob/main/src/sana-os_light_ja.yaml)
 
 **Platforms**: Claude Projects, ChatGPT, Gemini, any LLM
 
@@ -189,8 +189,8 @@ SANA OS offers **four versions** to suit different needs:
 **Perfect for**: Developers, researchers, customization, API integration
 
 **Files:**
-- English: [src/sana-os_full_en.yaml](src/sana-os_full_en.yaml])
-- Japanese: [src/sana-os_full_ja.yaml](src/sana-os_full_ja.yaml)
+- English: [src/sana-os_full_en.yaml](https://github.com/sana-os/sana-os/blob/main/src/sana-os_full_en.yaml)
+- Japanese: [src/sana-os_full_ja.yaml](https://github.com/sana-os/sana-os/blob/main/src/sana-os_full_ja.yaml)
 
 **Platforms**: Any LLM, API integration, custom applications
 

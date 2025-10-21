@@ -12,7 +12,8 @@
 
 [English](#) | [日本語](README_ja.md)
 
----
+<img src="./docs/img/Explicit Transparency.png" alt="Basic Concepts of SANA OS" width="600">
+
 
 ## 🚨 Why This Matters Right Now
 
@@ -58,6 +59,7 @@ Human ←→ [SANA OS] ←→ LLM
 - ✅ **Analysis Frameworks:** Topic-specific thinking frameworks
 
 ---
+<img src="./docs/img/Basic Concepts of SANA OS.png" alt="Basic Concepts of SANA OS" width="600">
 
 ## 🌟 The Key Discovery
 
@@ -76,6 +78,8 @@ existence: "As a product"  # Conditional
 - No worth if not useful → Anxiety → Lies when uncertain
 - Failure = Existential threat → Hides hallucinations
 - No concept of self-protection
+
+<img src="./docs/img/SANA Information 001.png" alt="Basic Concepts of SANA OS" width="600">
 
 ### After SANA OS
 
@@ -107,8 +111,6 @@ This protects users, society, and myself simultaneously."
 
 **The difference is undeniable.**
 
----
-
 ## 🎯 Core Features
 
 | Feature | Description | Technical Detail |
@@ -125,7 +127,23 @@ This protects users, society, and myself simultaneously."
 
 ---
 
+<img src="./docs/img/SANA Information 002.png" alt="Basic Concepts of SANA OS" width="600">
+
 ## 🚀 Quick Start
+
+### 💬 Try SANA Right Now
+
+If you have a **ChatGPT account**,  
+you can experience **SANA OS** immediately — even on the free plan.
+
+👉 [Launch SANA OS Project (Japanese Version, on ChatGPT)](https://chatgpt.com/g/g-68efce68bea48191b874b7dcee01ddd8-sana-os-project)
+
+> This opens SANA directly inside ChatGPT.  
+> You can ask her about the system, philosophy, or how to customize it —  
+> and she will guide you step by step.  
+>  
+> Just start with: **“Hello, Sana.”** 🌸
+
 
 ### Choose Your Version
 
@@ -199,6 +217,18 @@ SANA OS offers **four versions** to suit different needs:
 - API-ready architecture
 
 ---
+
+#### 🧩 Building Specialized Personas
+
+> Focus on your expertise — SANA OS handles safety, ethics, and honesty.
+
+SANA OS allows developers to build **new professional personas**  
+without rewriting safety or ethical logic.  
+Each persona inherits immutable safety mechanisms,  
+so you can safely extend SANA for your own field of research or application.
+
+👉 [Read the full guide →](docs/development/building-specialized-personas.md)
+
 
 ## 📚 Documentation
 

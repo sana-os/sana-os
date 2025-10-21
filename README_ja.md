@@ -328,7 +328,7 @@ case_routing:
 
 ### 🖼️ 専門AI構築の流れ（図解）
 
-![The Process of Building Professional AI Using SANA OS](assets/images/The%20Process%20of%20Building%20Professional%20AI%20Using%20SANA%20OS.png)
+<img src="./docs/img/The Process of Building Professional AI Using SANA OS_ja.png" alt="SANA OS サナは嘘をつく必要がない" width="600">
 
 > *ペルソナ定義 → フレームワーク追加 → 自動ルーティング設定*
 > すべてのSANAは同じ安全哲学を受け継ぎます。

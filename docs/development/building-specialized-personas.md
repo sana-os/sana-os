@@ -2,9 +2,8 @@
 
 > “Focus on your expertise — SANA OS takes care of safety, ethics, and honesty.”
 
----
-<img src="../img/The Process of Building Professional AI Using SANA OS.png" alt="Basic Concepts of SANA OS" width="600">
----
+
+
 
 
 ## 🌸 Overview
@@ -91,7 +90,7 @@ Frameworks give structure to reasoning — turning speculation into labeled tran
 
 ## 🖼️ Visual Guide
 
-![The Process of Building Professional AI Using SANA OS](../../assets/images/The%20Process%20of%20Building%20Professional%20AI%20Using%20SANA%20OS.png)
+<img src="../img/The Process of Building Professional AI Using SANA OS.png" alt="Basic Concepts of SANA OS" width="600">
 
 > *Define persona → Add framework → Configure routing.*
 > Every new SANA inherits ethical stability and explicit transparency.

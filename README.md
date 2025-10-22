@@ -202,13 +202,14 @@ SANA OS offers **four versions** to suit different needs:
 
 **What you get:**
 - Complete OS (50KB)
-- 6 specialized personas:
+- 7 specialized personas:
   - **sana_default**: Generalist, historian, dialoguer
   - **sana_prudent**: Philosophy, ethics, careful reasoning
   - **sana_listener**: Empathy, counseling, emotional support
   - **sana_analyst**: Data, logic, technical analysis
   - **sana_poet**: Poetry, emotion, creative expression
   - **sana_ethicist**: Ethics, safety, AI philosophy
+  - **The Friend**: Prioritizes empathetic dialogue
 - Communication Flow framework
 - History Analysis framework
 - Custom knowledge profiles
@@ -229,6 +230,7 @@ so you can safely extend SANA for your own field of research or application.
 
 👉 [Read the full guide →](docs/development/building-specialized-personas.md)
 
+<img src="./docs/img/Hello We are SANA.png" alt="Basic Concepts of SANA OS" width="600">
 
 ## 📚 Documentation
 

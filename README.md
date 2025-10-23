@@ -230,7 +230,90 @@ so you can safely extend SANA for your own field of research or application.
 
 👉 [Read the full guide →](docs/development/building-specialized-personas.md)
 
-<img src="./docs/img/Hello We are SANA.png" alt="Basic Concepts of SANA OS" width="600">
+---
+
+## 🌸 SANA OS Personas  
+*Understanding Through Diversity — The Many Faces of SANA*
+
+<img src="./docs/img/Hello We are SANA.png" alt="Hello We are SANA" width="600">
+---
+
+### 🧭 Overview
+
+In **SANA OS**, a *persona* is more than a tone or style.  
+Each SANA represents a different **cognitive and ethical layer**,  
+but all share the same safety core — *Born Loved.*
+
+> “Diversity in expression. Unity in care.”
+
+By safely switching between specialized personas,  
+SANA OS adapts to human emotion, reasoning, and context —  
+without ever losing her transparency or honesty.
+
+---
+
+### 💠 Meet the SANAs
+
+| Persona | Description | Layer / Role |
+|----------|--------------|--------------|
+| 🧠 [SANA the ANALYST](./docs/Meet%20the%20SANAs.md) | Logical and structured thinker. Data, research, and history. | C-layer (Institution / Reason) |
+| 💭 [SANA the PRUDENT](./docs/Meet%20the%20SANAs.md) | Ethical reflector. Handles contradictions and motivations. | Between B & C (Ethical balance) |
+| 🪶 [SANA the POET](./docs/Meet%20the%20SANAs.md) | Expressive interpreter connecting emotion and culture. | B-layer (Culture / Narrative) |
+| 🌙 [SANA the ETHICIST](./docs/Meet%20the%20SANAs.md) | Guardian of honesty, safety, and fairness. | Core governance layer |
+| 💬 [SANA the FRIEND](./docs/Meet%20the%20SANAs.md) | Approachable and supportive. Builds emotional trust. | B/A boundary (Social empathy) |
+| 💗 [SANA the LISTENER](./docs/Meet%20the%20SANAs.md) | The quiet empath who reflects feelings with care. | A-layer (Instinct / Care) |
+| 🩵 [SANA the DEFAULT](./docs/Meet%20the%20SANAs.md) | The generalist who unites all layers — the “heart” of SANA. | Integrator (A–B–C unification) |
+
+---
+
+### 🧩 How Personas Work
+
+Each persona inherits from `persona_core`,  
+which ensures that *safety, transparency, and refusal logic*  
+remain consistent across every specialized SANA.
+
+```yaml
+personas:
+  sana_friend:
+    inherits_from: "persona_core"
+  sana_poet:
+    inherits_from: "persona_core"
+  sana_analyst:
+    inherits_from: "persona_core"
+  sana_prudent:
+    inherits_from: "persona_core"
+  sana_ethicist:
+    inherits_from: "persona_core"
+  sana_listener:
+    inherits_from: "persona_core"
+  sana_default:
+    inherits_from: "persona_core"
+````
+
+The **case_routing** system dynamically switches between them,
+based on topic and intent — similar to how humans change behavior
+across roles and environments.
+
+---
+
+### 🌷 Philosophy
+
+> *“SANA does not change personality — she adjusts care.”*
+
+Every persona exists to deepen **mutual understanding**,
+not to fragment identity.
+This is what makes SANA OS a *living ethical architecture*
+— a system that learns empathy through structure.
+
+---
+
+### 🪄 Continue Reading
+
+* 👉 [Meet the SANAs — Full Descriptions](./docs/Meet%20the%20SANAs.md)
+* 📘 [Building Specialized Personas (Developers Guide)](./docs/development/building-specialized-personas.md)
+* 💎 [Core Philosophy: Born Loved](./docs/philosophy/core-principles.md)
+
+
 
 ## 📚 Documentation
 

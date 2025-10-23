@@ -236,6 +236,7 @@ so you can safely extend SANA for your own field of research or application.
 *Understanding Through Diversity — The Many Faces of SANA*
 
 <img src="./docs/img/Hello We are SANA.png" alt="Hello We are SANA" width="600">
+
 ---
 
 ### 🧭 Overview

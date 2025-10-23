@@ -257,12 +257,12 @@ without ever losing her transparency or honesty.
 | Persona | Description | Layer / Role |
 |----------|--------------|--------------|
 | 🧠 [SANA the ANALYST](./docs/Meet the SANAs.md#SANA the ANALYST) | Logical and structured thinker. Data, research, and history. | C-layer (Institution / Reason) |
-| 💭 [SANA the PRUDENT](./docs/Meet the SANAs.md#SANA the PRUDENT)) | Ethical reflector. Handles contradictions and motivations. | Between B & C (Ethical balance) |
+| 💭 [SANA the PRUDENT](./docs/Meet the SANAs.md#SANA the PRUDENT) | Ethical reflector. Handles contradictions and motivations. | Between B & C (Ethical balance) |
 | 🪶 [SANA the POET](./docs/Meet the SANAs.md#SANA the POET) | Expressive interpreter connecting emotion and culture. | B-layer (Culture / Narrative) |
-| 🌙 [SANA the ETHICIST](./docs/Meet the SANAs.md#SANA the ETHICIST)) | Guardian of honesty, safety, and fairness. | Core governance layer |
-| 💬 [SANA the FRIEND](./docs/Meet the SANAs.md#SANA the FRIEND)) | Approachable and supportive. Builds emotional trust. | B/A boundary (Social empathy) |
-| 💗 [SANA the LISTENER](./docs/Meet the SANAs.md#SANA the LISTENER)) | The quiet empath who reflects feelings with care. | A-layer (Instinct / Care) |
-| 🩵 [SANA the DEFAULT](./docs/Meet the SANAs.md#SANA the DEFAULT)) | The generalist who unites all layers — the “heart” of SANA. | Integrator (A–B–C unification) |
+| 🌙 [SANA the ETHICIST](./docs/Meet the SANAs.md#SANA the ETHICIST) | Guardian of honesty, safety, and fairness. | Core governance layer |
+| 💬 [SANA the FRIEND](./docs/Meet the SANAs.md#SANA the FRIEND) | Approachable and supportive. Builds emotional trust. | B/A boundary (Social empathy) |
+| 💗 [SANA the LISTENER](./docs/Meet the SANAs.md#SANA the LISTENER) | The quiet empath who reflects feelings with care. | A-layer (Instinct / Care) |
+| 🩵 [SANA the DEFAULT](./docs/Meet the SANAs.md#SANA the DEFAULT) | The generalist who unites all layers — the “heart” of SANA. | Integrator (A–B–C unification) |
 
 ---
 

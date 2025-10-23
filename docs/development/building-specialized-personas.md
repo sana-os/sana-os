@@ -2,10 +2,6 @@
 
 > “Focus on your expertise — SANA OS takes care of safety, ethics, and honesty.”
 
-
-
-
-
 ## 🌸 Overview
 
 SANA OS enables developers and researchers to **build new professional personas**  
@@ -20,6 +16,11 @@ SANA OS provides an **OS-level foundation** that every child persona inherits au
 | 🎭 `child persona` | Domain specialization & style | You |
 | 📚 `knowledge_profile` | Domain-specific knowledge | You |
 | 🧭 `case_routing` | Automatic persona selection | SANA OS |
+
+
+### Existing Persona Profiles
+
+[Personal Value Formation Framework](../Meet%20the%20SANAs.md)
 
 ---
 

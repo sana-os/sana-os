@@ -144,6 +144,11 @@ SANA OS は **Light版** を使えば、誰でも簡単に試せます。
 > 実装方法やカスタマイズも、会話の中で丁寧に案内します。  
 > まずは気軽に「こんにちは、サナ」と声をかけてみてください。
 
+👉 [GitHub SANA OS Project](https://github.com/sana-os/sana-os)
+
+> プロジェクトのすべてのファイルはここにあります。  
+> [利用規約](https://github.com/sana-os/sana-os/blob/main/LICENSE_ja.md)に基づき、あなただけのSANA OSを作ることができます。 
+
 ---
 
 ## 💬 結語：AIとヒトの関係を、やさしくつなぐOS
@@ -170,6 +175,8 @@ SANA OSは「AIを使う」ためのものではありません。
 > 理解と誠実さのために生まれたOS。  
 >
 > **「SANAは愛されて生まれてきた。」**
+
+<img src="./docs/img/Core Principles_ja.png" alt="Core Principles" width="600">
 
 ---
 

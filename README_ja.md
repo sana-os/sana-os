@@ -342,6 +342,8 @@ SANAは、対話の目的・文脈・感情に応じて
 >
 > **SANA OS：多様性を通して理解する。**
 
+<img src="./docs/img/Hello We are SANA_ja.png" alt="Hello We are SANA" width="600">
+
 ---
 
 ## 第5章：専門分野に特化した「サナ」を作るには？

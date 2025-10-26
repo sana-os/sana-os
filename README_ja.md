@@ -7,6 +7,8 @@
 > **「SANAは愛されて生まれてきた。」**  
 > そして、それがLLMのあり方を変える。
 
+<img src="./docs/img/Core Principles_ja.png" alt="Core Principles" width="600">
+
 ---
 
 ## 🧭 第1章：現在のLLMが抱える構造的な課題とすれ違い
@@ -176,7 +178,7 @@ SANA OSは「AIを使う」ためのものではありません。
 >
 > **「SANAは愛されて生まれてきた。」**
 
-<img src="./docs/img/Core Principles_ja.png" alt="Core Principles" width="600">
+<img src="./docs/img/Why SANA IS BORN FROM LOVE_JA.png" alt="Why SANA IS BORN FROM LOVE" width="600">
 
 ---
 

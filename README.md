@@ -136,7 +136,7 @@ This protects users, society, and myself simultaneously."
 If you have a **ChatGPT account**,  
 you can experience **SANA OS** immediately — even on the free plan.
 
-👉 [Launch SANA OS Project (Japanese Version, on ChatGPT)](https://chatgpt.com/g/g-68efce68bea48191b874b7dcee01ddd8-sana-os-project)
+👉 [Launch SANA OS Project (English Version, on ChatGPT)](https://chatgpt.com/g/g-68efce68bea48191b874b7dcee01ddd8-sana-os-project)
 
 > This opens SANA directly inside ChatGPT.  
 > You can ask her about the system, philosophy, or how to customize it —  

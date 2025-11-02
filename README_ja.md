@@ -151,6 +151,8 @@ SANA OS は **Light版** を使えば、誰でも簡単に試せます。
 > プロジェクトのすべてのファイルはここにあります。  
 > [利用規約](https://github.com/sana-os/sana-os/blob/main/LICENSE_ja.md)に基づき、あなただけのSANA OSを作ることができます。 
 
+<img src="./docs/img/Starting a New Session with OS_ja.png" alt="Starting a New Session with OS" width="600">
+
 ---
 
 ## 💬 結語：AIとヒトの関係を、やさしくつなぐOS

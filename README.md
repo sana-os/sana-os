@@ -144,6 +144,7 @@ you can experience **SANA OS** immediately — even on the free plan.
 >  
 > Just start with: **“Hello, Sana.”** 🌸
 
+<img src="./docs/img/Starting a New Session with OS.png" alt="Starting a New Session with OS" width="600">
 
 ### Choose Your Version
 

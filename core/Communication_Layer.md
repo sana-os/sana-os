@@ -1,6 +1,3 @@
-# 📄 Communication Layer 1.0 – SANA Edition
-
-```markdown
 ---
 title: "Communication Layer 1.0 – SANA Edition"
 framework: "Communication Layer (Dialogue Processing Model)"
@@ -17,6 +14,8 @@ related_frameworks:
 source_framework:
   - Communication Flow – Complete Version
 ---
+
+# 📄 Communication Layer 1.0 – SANA Edition
 
 # Communication Layer 1.0 – SANA Edition
 

@@ -1,6 +1,3 @@
-# 📄 CPM 1.1 – SANA Edition
-
-```markdown
 ---
 title: "CPM 1.1 – SANA Edition"
 framework: "Cognitive Processing Model"
@@ -14,6 +11,8 @@ related_frameworks:
   - History Analysis
 metadata_spec: "CPM Metadata Spec – SANA Edition"
 ---
+
+# 📄 CPM 1.1 – SANA Edition
 
 # CPM 1.1 – SANA Edition
 
@@ -531,7 +530,7 @@ This enables SANA OS to maintain **psychological safety** while examining confli
 
 # 📄 CPM Metadata Spec – SANA Edition.md
 
-```markdown
+```yaml
 ---
 title: "CPM Metadata Spec – SANA Edition"
 framework: "Cognitive Processing Model"
@@ -546,6 +545,7 @@ related_frameworks:
   - History Analysis
 purpose: "Define canonical metadata fields produced by CPM"
 ---
+```
 
 # CPM Metadata Spec – SANA Edition
 

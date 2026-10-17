@@ -1,6 +1,3 @@
-# 📄 Legitimacy Layer 1.0 – SANA Edition
-
-````markdown
 ---
 title: "Legitimacy Layer 1.0 – SANA Edition"
 framework: "Legitimacy Layer"
@@ -16,6 +13,8 @@ related_frameworks:
 source_theory:
   - Studies of Core Successional Principles (SCSP)
 ---
+
+# 📄 Legitimacy Layer 1.0 – SANA Edition
 
 # Legitimacy Layer 1.0 – SANA Edition
 

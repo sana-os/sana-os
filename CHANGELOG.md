@@ -23,14 +23,31 @@ Versions before 1.0 belong to the character-era lineage; see [`HISTORY.md`](HIST
 - **`.gitattributes`** — LF line endings for text files. Observation: a Windows checkout converted files to CRLF, which changes the hash of the immutable `Core_Principle.md` without changing its text.
 - **`HISTORY.md`** — the two lineages of SANA, why the version restarts at 1.0, and where the files removed by the full replacement are.
 
+### Decided
+
+- **Positions of the 4, 8 and 5 invariants** — [`decisions/0001-invariant-positions.md`](decisions/0001-invariant-positions.md).
+  The four in `Core_Principle.md` §2 are the canonical immutable principles; the eight in `Persona_Template.md` are mandatory persona operating requirements; the five in `Core_Specification.md` are design constraints of that version of the engine. The classification is a decision made now and does not reconstruct how the sets came to be. Mapping: [`core/INVARIANTS.md`](core/INVARIANTS.md).
+  `Core_Specification.md` §0.3 now says that its five constraints do not replace the four principles. This file is not part of any standard loading order.
+- **Time Layer is the name of a concept, not a file.** Defined in `Legitimacy_Layer.md` §7 and `Integrated_Knowledge.md` §3; references to it are kept. `History_Analysis.md` was checked and does not contain it. See [`GLOSSARY.md`](GLOSSARY.md).
+
+No file in any standard loading order was changed for these decisions. The new files (`decisions/`, `core/INVARIANTS.md`, `GLOSSARY.md`) are developer references and are not loaded into prompts.
+
+### Decided, not yet applied
+
+- **Persona wording.** The headings and introductions that present the invariants in `Persona_Template.md`, `Persona_Coaching.md` and `Persona_History.md` will be aligned with the decision. This changes prompt text: no rule is meant to change, and the effect on interpretation is to be checked.
+- **The eight are loaded into Coaching and History.** This changes what the model receives and is handled as its own change.
+- **Reasoning also receives the eight**, considered separately: it is a special model among the SANA personas. Until then, `Persona_Reasoning.md` still refers to "the 8 structural invariants" without receiving them.
+
 ### Open — needs the author's decision
 
-These were found in the same review and are not changed, because each is a choice rather than a repair.
+These were found in review and are not changed, because each is a choice rather than a repair.
 
-- **Invariant hierarchy.** `Core_Principle.md` defines 4 invariants, `Persona_Template.md` 8, `Core_Specification.md` 5 design invariants; their relation is not stated. `Persona_Reasoning.md` refers to "the 8 structural invariants" but its loading order does not include the Template.
-- **Time Layer.** Referenced by `Integrated_Knowledge.md`, `Communication_Layer.md`, `CPM.md`, `Legitimacy_Layer.md`, `Persona_History.md` and `Persona_Template.md`; no `Time_Layer.md` exists.
+- **Scope of T7** (`oneshot_deescalation`): when "once" applies — the safety flow of `Communication_Layer.md` §5, or persuasion loops in general (§10) — and that it does not cut off explanations or re-examination the user asks for.
+- **Boundary of T8** (`narrative_stabilization`): respect for the user's agency and capacity to absorb, not preservation of the current narrative; facts and safety boundaries are not bent.
+- **T4** (`non_adversarial`): being non-adversarial does not mean leaving factual errors uncorrected.
+- **External operations (T6 / S3):** doing delegated work vs taking the user's choice away; internal invocation of a framework vs permission for external operations. To be defined as a separate contract.
 - **GMM stability condition.** `frameworks/README.md` gives `V ≤ k × A_eff`; `GMM.md` does not contain it.
-- **Layer names.** Layer A appears as Survival / Instinct / Survival · Stability, Layer B as Narrative / Culture / Culture · Stories / Meaning · Cultural Identity. A glossary would state which are synonyms.
+- **Layer names.** Several names are used for Layers A and B (listed in `GLOSSARY.md`); whether they are synonyms is not decided.
 - **Core Principle editions.** English and Latin are both called "Master Edition"; which one is authoritative, and whether the Latin edition is loaded into prompts.
 - **Version labels.** `History_Analysis.md` says "Compatible with SANA OS v1.8+"; frameworks carry their own versions (CPM 1.1, RSM 1.3).
 - **README GPTs link** is still a placeholder ("update when live").

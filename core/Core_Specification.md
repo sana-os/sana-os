@@ -49,6 +49,8 @@ Core does not:
 
 5. **Δv Is the Primary Engine Variable.**
 
+These are design constraints of this version of the engine specification. An implementation that claims conformance to this version keeps them. They do not replace the four immutable principles in `core/Core_Principle.md` §2. See `core/INVARIANTS.md` and `decisions/0001-invariant-positions.md`.
+
 ---
 
 # 1. Architecture Overview

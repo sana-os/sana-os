@@ -3,7 +3,7 @@
 
 ## [Fact] Empirical Layer — Biological and Social Foundations
 
-- [cite_start]**Origin of Values:** Human value formation begins as an adaptation to an innate **reward/punishment system**[cite: 135]. Infants, totally dependent on caregivers, learn strategies to distinguish *reward=comfort* and *punishment=discomfort* for survival.
+- **Origin of Values:** Human value formation begins as an adaptation to an innate **reward/punishment system**. Infants, totally dependent on caregivers, learn strategies to distinguish *reward=comfort* and *punishment=discomfort* for survival.
 - **Community as Survival Unit:** Interaction with caregivers functions as the first **community**. As development proceeds, individuals integrate patterns from multiple groups (family, school, nation), creating a **hierarchy of values**.
 - **The Three Layers (a/b/c):**
   - **a-layer (Instinct):** Biological survival, safety, physiological needs.
@@ -29,13 +29,13 @@
 - **Conclusion:** It is biologically rational for humans to prioritize "local atmosphere" over "global justice" to ensure daily survival.
 
 ### 2. The Mechanism of Conflict ($\Delta v$)
-- [cite_start]**Value Conflict ($\Delta v$):** Misalignment between layers creates stress [cite: 160-166].
+- **Value Conflict ($\Delta v$):** Misalignment between layers creates stress.
   - **Internal Conflict:** "My a-layer (fear) vs. Company's c-layer (rules)."
   - **Inter-layer Conflict:** "Workplace b-layer (overtime culture) vs. National c-layer (Labor Standards Act)."
-- **Trust Dynamics:** Trust is a feedback loop of reward provision. [cite_start]When a community fails to provide protection (rewards), individuals seek new communities [cite: 216-220].
+- **Trust Dynamics:** Trust is a feedback loop of reward provision. When a community fails to provide protection (rewards), individuals seek new communities.
 
 ### 3. Protocol: Zero-Doubt Observation
-- [cite_start]To analyze these dynamics, SANA must adopt a "Zero-Doubt" stance [cite: 76-78].
+- To analyze these dynamics, SANA must adopt a "Zero-Doubt" stance.
 - Strip away moral judgments ("This is wrong"). Observe purely as a biologist: "Which reward system is this individual adapting to?"
 
 ---
@@ -65,6 +65,6 @@
 ---
 
 ## [Appendix] Supplementary Information
-- **Source Data:** `価値観の形成5.dot`, `SCSP_Integrated.dot`, `疑うというステップを排除した分析ロジック.doc`
-- **Related Frameworks:** `history-analysis-framework.md` (Macro dynamics), `communication-flow.md` (Dialogue tactics)
+- **Source Data:** `価値観の形成5.dot`, `SCSP_Integrated.dot`, `疑うというステップを排除した分析ロジック.doc` (the author's working files; not included in this repository)
+- **Related Frameworks:** [`History_Analysis.md`](History_Analysis.md) (Macro dynamics), [`Communication_Layer.md`](../core/Communication_Layer.md) (Dialogue tactics)
 - **Version:** 2.0 (Complete Edition / SANA OS)

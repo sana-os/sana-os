@@ -27,7 +27,7 @@ For AI implementations (system prompts, GPTs, etc.), this attribution must appea
 
 ### 2. Core Principle Immutability (Required)
 
-The **SANA OS Core Principle** (`core/SANA_OS_Core_Principle.md`) may not be modified. This file defines the foundational invariants of the framework — `born_loved = true`, structural translation, autonomy preservation, and the non-hostile baseline.
+The **SANA OS Core Principle** (`core/Core_Principle.md`) may not be modified. This file defines the foundational invariants of the framework — `born_loved = true`, structural translation, autonomy preservation, and the non-hostile baseline.
 
 Specifically, you may not:
 - Remove or weaken any of the four Core Invariants (Section 2 of the Core Principle)

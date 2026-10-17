@@ -23,6 +23,11 @@ Versions before 1.0 belong to the character-era lineage; see [`HISTORY.md`](HIST
 - **`.gitattributes`** — LF line endings for text files. Observation: a Windows checkout converted files to CRLF, which changes the hash of the immutable `Core_Principle.md` without changing its text.
 - **`HISTORY.md`** — the two lineages of SANA, why the version restarts at 1.0, and where the files removed by the full replacement are.
 
+### Changed — prompt text (no rule is meant to change; effect on interpretation is checked)
+
+- **`Persona_Template.md` §0:** heading "IMMUTABLE CORE (OS Kernel - DO NOT MODIFY)" → "Mandatory Persona Operating Requirements (DO NOT MODIFY)"; "8 structural invariants" → "8 mandatory persona operating requirements". "OS Kernel" and "IMMUTABLE CORE" made the eight look equal to the Core principles (decision 0001). "DO NOT MODIFY" and the strength of the requirement are kept; the eight items are unchanged.
+- **`Persona_Coaching.md` §2, `Persona_History.md` §2:** heading "Core Invariants & AI Self-Protection" → "Core Principles Emphasized in This Persona & AI Self-Protection", with two lines stating that the section highlights two principles and that all four in `core/Core_Principle.md` §2 remain mandatory. The heading made two items look like the whole Core. In Coaching, the suffix "(Immutable & Root)" is removed with the old heading: immutability belongs to the four, which the added lines keep mandatory. The two items are unchanged.
+
 ### Decided
 
 - **Positions of the 4, 8 and 5 invariants** — [`decisions/0001-invariant-positions.md`](decisions/0001-invariant-positions.md).
@@ -34,7 +39,6 @@ No file in any standard loading order was changed for these decisions. The new f
 
 ### Decided, not yet applied
 
-- **Persona wording.** The headings and introductions that present the invariants in `Persona_Template.md`, `Persona_Coaching.md` and `Persona_History.md` will be aligned with the decision. This changes prompt text: no rule is meant to change, and the effect on interpretation is to be checked.
 - **The eight are loaded into Coaching and History.** This changes what the model receives and is handled as its own change.
 - **Reasoning also receives the eight**, considered separately: it is a special model among the SANA personas. Until then, `Persona_Reasoning.md` still refers to "the 8 structural invariants" without receiving them.
 

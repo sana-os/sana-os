@@ -12,7 +12,7 @@ Rather than focusing on individuals or personalities, RSM treats organizations a
 
 The purpose of RSM is to identify **structural bottlenecks and failure modes** that arise when these roles become unbalanced.
 
-Within the SANA OS framework, RSM primarily describes the **role structure of Layer C (institutions and operational systems)** in the General Meaning Model (GMM), while maintaining a connection to Layer B (narratives and meaning structures).
+Within the SANA OS framework, RSM primarily describes the **role structure of Layer C (institutions and operational systems)** in the Governance Maturity Model (GMM), while maintaining a connection to Layer B (narratives and meaning structures).
 
 RSM is primarily a **diagnostic model**, used to clarify structural friction and align premises within collective systems.
 

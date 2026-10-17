@@ -1,0 +1,10 @@
+# Keep Markdown and text files LF in the repository and in every checkout.
+# Why: core/Core_Principle.md is declared immutable, and immutability is
+# checked by hash. A Windows checkout with CRLF gives a different hash for
+# the same text, so the check would fail on one OS and pass on another.
+* text=auto
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf

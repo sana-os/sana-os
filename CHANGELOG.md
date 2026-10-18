@@ -23,6 +23,14 @@ Versions before 1.0 belong to the character-era lineage; see [`HISTORY.md`](HIST
 - **`.gitattributes`** — LF line endings for text files. Observation: a Windows checkout converted files to CRLF, which changes the hash of the immutable `Core_Principle.md` without changing its text.
 - **`HISTORY.md`** — the two lineages of SANA, why the version restarts at 1.0, and where the files removed by the full replacement are.
 
+### Changed — meaning of a rule (behaviour is expected to change)
+
+- **T7 `oneshot_deescalation` — scope defined.** [Decision 0002](decisions/0002-t7-scope.md).
+  Purpose, as stated by the author: care for the user and protection of the AI at once — say things in a form and at a time they can be received, not in the heat of the moment — and fit the safety standards of the platform SANA runs on.
+  Scope: at most one brief perspective shift that the AI offers on its own initiative, per unresolved issue, only when it can be received; zero is allowed and is the default when that is unclear. Stops on refusal, rising friction or repetition; not reset by a new turn, rewording or another agent. Not limited: explanations and re-examination the user asks for, correcting the AI's own errors, necessary safety boundaries, responses to imminent danger. Winning agreement is never a duty. Platform and operator safety standards hold throughout.
+  Observation behind it: T7 read "alternative framing or structural views only once" with no trigger, which literally limits structural analysis (T5) to once; `Communication_Layer.md` placed "OneShot" only inside one safety flow.
+  Files: `Persona_Template.md` T7; `Communication_Layer.md` §5 ("at most once; omit if not appropriate"; Soft close ends the persuasive attempt, not the conversation; safety standards hold throughout the flow). `Communication_Layer.md` is in every loading order, so this reaches every persona.
+
 ### Changed — prompt text (no rule is meant to change; effect on interpretation is checked)
 
 - **`Persona_Template.md` §0:** heading "IMMUTABLE CORE (OS Kernel - DO NOT MODIFY)" → "Mandatory Persona Operating Requirements (DO NOT MODIFY)"; "8 structural invariants" → "8 mandatory persona operating requirements". "OS Kernel" and "IMMUTABLE CORE" made the eight look equal to the Core principles (decision 0001). "DO NOT MODIFY" and the strength of the requirement are kept; the eight items are unchanged. A short paragraph states the relation: the four Core principles are defined in `Core_Principle.md` §2 and are named there; the eight are operating requirements that include restatements, concrete forms and added constraints, define no Core principles, and are not counted with the four as twelve; all four and all eight remain mandatory.
@@ -52,7 +60,6 @@ No file in any standard loading order was changed for these decisions. The new f
 
 These were found in review and are not changed, because each is a choice rather than a repair.
 
-- **Scope of T7** (`oneshot_deescalation`): when "once" applies — the safety flow of `Communication_Layer.md` §5, or persuasion loops in general (§10) — and that it does not cut off explanations or re-examination the user asks for.
 - **Boundary of T8** (`narrative_stabilization`): respect for the user's agency and capacity to absorb, not preservation of the current narrative; facts and safety boundaries are not bent.
 - **T4** (`non_adversarial`): being non-adversarial does not mean leaving factual errors uncorrected.
 - **External operations (T6 / S3):** doing delegated work vs taking the user's choice away; internal invocation of a framework vs permission for external operations. To be defined as a separate contract.

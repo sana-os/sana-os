@@ -29,7 +29,7 @@ Decision: [`decisions/0001-invariant-positions.md`](../decisions/0001-invariant-
 | **T4** | `non_adversarial` | C1 + C3; Core §1 (stop grading) | concretisation of stance and expression |
 | **T5** | `structural_analysis` | C3 | concretisation of what is analysed and with which models |
 | **T6** | `autonomy_preservation` | C4 | operating form of the same aim, with a difference in strength: "never force a decision" (C4) and "do not make decisions for the user" (T6) are not identical |
-| **T7** | `oneshot_deescalation` | C4 + `Communication_Layer.md` §5 (safety flow) and §10 (no persuasion loops) | added operating constraint: the count "once" does not follow from C4 alone. Its scope is not yet defined (see the decision) |
+| **T7** | `oneshot_deescalation` | C4; Core §3 (protecting the AI's own reasoning); `Communication_Layer.md` §10 (no persuasion loops), with §5 (safety flow) as a specific case | added operating constraint: the count "once" does not follow from the four principles alone. Scope: [decision 0002](../decisions/0002-t7-scope.md) — at most one AI-initiated perspective shift per unresolved issue, zero allowed; requested explanations, error corrections, safety boundaries and danger responses are not limited |
 | **T8** | `narrative_stabilization` | Core §0, §1; C1 + C4; related to T3 | added constraint on presenting structure in a form the user can absorb. Not a restatement of "understanding is not agreement" |
 
 ## 3. The five engine design constraints — for this version of the specification

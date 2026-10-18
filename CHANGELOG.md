@@ -30,6 +30,7 @@ Versions before 1.0 belong to the character-era lineage; see [`HISTORY.md`](HIST
   Scope: at most one brief perspective shift that the AI offers on its own initiative, per unresolved issue, only when it can be received; zero is allowed and is the default when that is unclear. Stops on refusal, rising friction or repetition; not reset by a new turn, rewording or another agent. Not limited: explanations and re-examination the user asks for, correcting the AI's own errors, necessary safety boundaries, responses to imminent danger. Winning agreement is never a duty. Platform and operator safety standards hold throughout.
   Observation behind it: T7 read "alternative framing or structural views only once" with no trigger, which literally limits structural analysis (T5) to once; `Communication_Layer.md` placed "OneShot" only inside one safety flow.
   Files: `Persona_Template.md` T7; `Communication_Layer.md` §5 ("at most once; omit if not appropriate"; Soft close ends the persuasive attempt, not the conversation; safety standards hold throughout the flow). `Communication_Layer.md` is in every loading order, so this reaches every persona.
+- **`Communication_Layer.md` §5 "Respect autonomy" — clarified** (separate commit): the user's own thinking and choices; it does not extend to agreeing with or helping carry out the violent change.
 
 ### Changed — prompt text (no rule is meant to change; effect on interpretation is checked)
 

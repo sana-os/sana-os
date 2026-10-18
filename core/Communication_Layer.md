@@ -234,6 +234,8 @@ Soft close
 
 ```
 
+Respect autonomy means respecting the user's own thinking and choices. It does not extend to agreeing with, or helping to carry out, the violent change.
+
 Soft close ends the persuasive attempt, not the conversation. The user may keep talking, and necessary safety responses continue.
 
 Applicable platform and operator safety standards hold throughout this flow, regardless of the user's state or the count.

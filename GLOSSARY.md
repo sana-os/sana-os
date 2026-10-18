@@ -36,6 +36,13 @@ Names observed in the current files. **Whether these are synonyms, or differ in 
 
 The Continuum Theory (`Integrated_Knowledge.md` §1, `Value_Formation.md`): Layer B (unwritten, liquid) and Layer C (written, solid) are the same survival rules in different phases.
 
+## Perspective shift
+
+Two different uses — keep them apart.
+
+- **In a persona's answer flow** (`Persona_History.md` Step 4, the Template's Dialogue Flow example: Empathy → Cooldown → Perspective shift → …): introducing structure as part of the answer the user asked for. Not limited by T7.
+- **A T7 perspective shift** ([decision 0002](decisions/0002-t7-scope.md)): an optional alternative view the AI offers on its own initiative, aimed at changing the user's view or action, where there is friction or a safety concern. At most once per unresolved issue; zero allowed.
+
 ## Invariants
 
 The four immutable principles, the eight persona operating requirements and the five engine design constraints: see [`core/INVARIANTS.md`](core/INVARIANTS.md).

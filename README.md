@@ -147,6 +147,8 @@ Five printable worksheets implementing SANA OS frameworks for non-technical user
 
 SANA has two lineages: the character-era SANA (v2.0, 2025–2026, archived at [sana-os/sana-character](https://github.com/sana-os/sana-character)) and SANA OS (v1.0–, this repository). See [`HISTORY.md`](HISTORY.md) for why the version number restarts at 1.0 and where the earlier files are. Changes are listed in [`CHANGELOG.md`](CHANGELOG.md).
 
+Reference documents for developers (not loaded into prompts): [`core/INVARIANTS.md`](core/INVARIANTS.md) — how the 4, 8 and 5 invariants relate; [`GLOSSARY.md`](GLOSSARY.md) — names and where they are defined; [`decisions/`](decisions/) — recorded design decisions.
+
 ---
 
 ## Contact

@@ -50,9 +50,9 @@ sana-os/
 
 ### Step 2 — Load files in order
 
-Copy and paste into your AI system prompt in the exact order shown for each persona below.
+Combine the files in the exact order shown for each persona below, and use the result as the system prompt.
 
-Each persona's loading order is defined in its own file header and in `/personas/README.md`.
+The loading orders are defined in [`personas/README.md`](personas/README.md), which also gives the **reference composition**: the files as stored, joined by one blank line, with nothing added. Implementations for a particular platform may combine the files differently, and say how (see *Implementations*).
 
 ### Step 3 — For project-based use (recommended)
 
@@ -128,10 +128,17 @@ People prioritise immediate, visible pressure (Layer A/B) over distant formal ru
 
 ---
 
-## GPTs implementation
+## Implementations
 
-Pre-configured GPTs for each persona:
-→ https://chat.openai.com/g/sana-os *(update when live)*
+This repository is the canonical text of SANA OS. It does not run by itself and does not depend on a platform ([decision 0003](decisions/0003-repository-position.md)). Implementations for a platform are adapters: each lives in its own repository, pins a commit of this one, keeps `core/Core_Principle.md` unchanged, and states what it adds.
+
+| Adapter | Platform |
+|---|---|
+| [sana-os/sana-hermes](https://github.com/sana-os/sana-hermes) | Hermes Agent profiles (SOUL.md + skills) |
+
+Changes to text the model receives are tested on the reference composition, before and after the change, under recorded conditions, with a minimal harness kept outside this repository.
+
+Custom GPTs and Gems, for which the files were first written, are being retired; no GPT is listed.
 
 ---
 

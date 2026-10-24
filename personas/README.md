@@ -122,3 +122,15 @@ Load only the framework files relevant to your domain. The four invariants in `C
 - Framework files may be added or removed depending on use case
 - `Core_Principle.md`, `Integrated_Knowledge.md`, and `Communication_Layer.md` are always required
 - For project-based use, paste all files as a single combined system prompt
+
+## Reference composition
+
+The reference system prompt for a persona is defined exactly, so that the same commit always gives the same text ([decision 0003](../decisions/0003-repository-position.md)):
+
+- the files of the persona's loading order above, in that order;
+- each file as stored in this repository (UTF-8, LF), with trailing newlines removed;
+- joined by one blank line (`\n\n`), with nothing added before, between or after them.
+
+For a persona built from the Template, its file is `Persona_Template.md` with the developer note (the bracketed line under the title) removed and sections 2–3 replaced by the persona's own; the title line and sections 0–1 are kept unchanged.
+
+Changes to text the model receives are tested on this composition. Implementations for a platform may combine the files differently (separators, file headers, frameworks as skills) and state how.

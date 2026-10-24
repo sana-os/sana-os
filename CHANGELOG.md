@@ -29,6 +29,9 @@ Versions before 1.0 belong to the character-era lineage; see [`HISTORY.md`](HIST
   The four in `Core_Principle.md` §2 are the canonical immutable principles; the eight in `Persona_Template.md` are mandatory persona operating requirements; the five in `Core_Specification.md` are design constraints of that version of the engine. The classification is a decision made now and does not reconstruct how the sets came to be. Mapping: [`core/INVARIANTS.md`](core/INVARIANTS.md).
   `Core_Specification.md` §0.3 now says that its five constraints do not replace the four principles. This file is not part of any standard loading order.
 - **Time Layer is the name of a concept, not a file.** Defined in `Legitimacy_Layer.md` §7 and `Integrated_Knowledge.md` §3; references to it are kept. `History_Analysis.md` was checked and does not contain it. See [`GLOSSARY.md`](GLOSSARY.md).
+- **This repository is the canonical text; platforms are served by adapters; text changes are tested on a reference composition** — [`decisions/0003-repository-position.md`](decisions/0003-repository-position.md).
+  The reference composition (the loading-order files as stored, joined by one blank line, nothing added) is defined in `personas/README.md`. The README's *GPTs implementation* section, which pointed at a placeholder, is replaced by *Implementations*, listing `sana-os/sana-hermes`.
+  Observation behind it: custom GPTs and Gems, for which the loading instructions were written, are being retired; and a check run inside a platform mixes the effect of a text change with the platform's own instructions, memory, tools and compression.
 
 No file in any standard loading order was changed for these decisions. The new files (`decisions/`, `core/INVARIANTS.md`, `GLOSSARY.md`) are developer references and are not loaded into prompts.
 
@@ -50,4 +53,3 @@ These were found in review and are not changed, because each is a choice rather 
 - **Layer names.** Several names are used for Layers A and B (listed in `GLOSSARY.md`); whether they are synonyms is not decided.
 - **Core Principle editions.** English and Latin are both called "Master Edition"; which one is authoritative, and whether the Latin edition is loaded into prompts.
 - **Version labels.** `History_Analysis.md` says "Compatible with SANA OS v1.8+"; frameworks carry their own versions (CPM 1.1, RSM 1.3).
-- **README GPTs link** is still a placeholder ("update when live").
